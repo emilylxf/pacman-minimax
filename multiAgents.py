@@ -155,6 +155,9 @@ class MinimaxAgent(MultiAgentSearchAgent):
     def minimax(self, gameState):
         return 0
 
+    def test(self, gameState):
+        return 0
+
     def getAction(self, gameState):
         """
           Returns the minimax action from the current gameState using self.depth
